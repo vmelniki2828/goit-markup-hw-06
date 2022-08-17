@@ -206,6 +206,7 @@ body{
     background-color: var(--brand-color);
     border:0;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .backdrop{
@@ -233,12 +234,14 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 500px;
-    min-height: 600px;
+    width: 488px;
+    height: 541px;
     background-color: #FFFFFF;
     border-radius: 5px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 40px;
+    width: 528px;
+    height: 581px;
 }
 
 .modal-close-btn {
@@ -253,10 +256,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .modal-close-btn {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-icon{
+    width: 18px;
+    height: 18px;
 }
 
 .modal-close-icon:hover,
@@ -341,6 +350,7 @@ body{
     margin-top: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 30px;
 }
 
 
@@ -364,14 +374,19 @@ body{
     color: rgba(117, 117, 117, 0.5);
 }
 
+.modal-field:last-child
+{
+    margin-bottom: 0;
+}
+
 .modal-field-checkbox{
     margin-bottom: 30px;
-    margin-top: 20px;
 }
 
 .input-check:checked+.check-text span {
     background-color: var(--accent-color);
     border: none;
+    
 }
 
 .input-check:checked+.check-text .check-icon {
@@ -381,6 +396,7 @@ body{
 .input-check {
     margin-left: 14px;
     margin-right: 7px;
+    
 }
 
 .check-text {
@@ -394,6 +410,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .check-text a {
@@ -450,7 +467,8 @@ body{
     justify-content: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    margin-left: 125px;
+    margin-left: 135px;
+    cursor: pointer;
 }
 
 .about{
@@ -840,10 +858,12 @@ body{
     color: #FFFFFF;
     margin-left: 12px;
     justify-content: center;
+    cursor: pointer;
 }
 
 .footer-btn-svg{
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .contact-link{
@@ -939,6 +959,7 @@ body{
     justify-content: center;
     margin-bottom: 50px;
     list-style-type: none;
+    cursor: pointer;
 }
 
 .btn-item{
