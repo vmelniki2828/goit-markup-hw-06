@@ -234,14 +234,12 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 488px;
-    height: 601px;
     background-color: #FFFFFF;
     border-radius: 5px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 40px;
     width: 528px;
-    height: 581px;
+
 }
 
 .modal-close-btn {
@@ -291,7 +289,6 @@ body{
 .modal-label {
     display: inline-block;
     margin-bottom: 4px;
-    margin-top: 0;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
@@ -413,6 +410,7 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    fill: #ffffff;
 }
 
 .check-text a {
