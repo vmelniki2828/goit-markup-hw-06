@@ -239,7 +239,6 @@ body{
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 40px;
     width: 528px;
-
 }
 
 .modal-close-btn {
@@ -255,15 +254,11 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    padding: 0;
 }
 
 .modal-close-btn {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-close-icon{
-    width: 18px;
-    height: 18px;
 }
 
 .modal-close-icon:hover,
